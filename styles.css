@@ -1,13 +1,13 @@
 :root {
-  --navy: #16324f;
-  --navy-dark: #0e2338;
-  --teal: #2ab7b0;
-  --teal-dark: #1f938d;
-  --gray: #64748b;
+  --navy: #c2185b;
+  --navy-dark: #8e0e46;
+  --teal: #ff6fa5;
+  --teal-dark: #f0468a;
+  --gray: #97616f;
   --bg: #ffffff;
-  --bg-alt: #f4f7f8;
-  --border: #e3e8eb;
-  --text: #1c2b36;
+  --bg-alt: #fff0f6;
+  --border: #ffd6e8;
+  --text: #4a1729;
   --radius: 10px;
 }
 
@@ -140,7 +140,7 @@ p { margin: 0 0 1em; }
   max-width: 620px;
   margin: 0 auto 1.8em;
   font-size: 1.1rem;
-  color: #dce8e7;
+  color: #ffe0ee;
 }
 .hero-actions {
   display: flex;
@@ -151,7 +151,7 @@ p { margin: 0 0 1em; }
 .hero-note {
   margin-top: 1.2em;
   font-size: 0.9rem;
-  color: #b9cdcb;
+  color: #f2b8d3;
 }
 
 /* Trust strip */
@@ -230,7 +230,7 @@ p { margin: 0 0 1em; }
 }
 .price-card.featured {
   border-color: var(--teal);
-  box-shadow: 0 6px 20px rgba(42, 183, 176, 0.18);
+  box-shadow: 0 6px 20px rgba(240, 70, 138, 0.18);
 }
 .price-label {
   color: var(--gray);
@@ -299,7 +299,7 @@ p { margin: 0 0 1em; }
 }
 .cta-band h2 { color: #fff; }
 .cta-band p {
-  color: #cfe0de;
+  color: #f8d3e4;
   margin-bottom: 1.6em;
 }
 
@@ -318,8 +318,8 @@ p { margin: 0 0 1em; }
   font-size: 0.9rem;
 }
 .footer-brand { font-weight: 700; color: #fff; }
-.footer-info a { color: #7fd8d2; text-decoration: none; }
-.footer-copy { width: 100%; text-align: center; margin-top: 10px; color: #7f92a0; font-size: 0.8rem; }
+.footer-info a { color: #ff9dc2; text-decoration: none; }
+.footer-copy { width: 100%; text-align: center; margin-top: 10px; color: #d98cae; font-size: 0.8rem; }
 
 /* Responsive */
 @media (max-width: 760px) {
